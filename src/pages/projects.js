@@ -85,7 +85,7 @@ const FeaturedProject = ({ type, title, summary, img, link, github, hasRepo, tec
         </div>
         <div className="font-medium w-full md:text-md flex flex-wrap">
           {tech && tech.map((t, index) => 
-            <span key={index} className={`text-xs mt-4 font-medium mr-2 px-2.5 py-0.5 rounded-full ${techToColorMapping[t]}`}>
+            <span key={index} className={`text-xs mt-3 font-medium mr-2 px-2.5 py-0.5 rounded-full ${techToColorMapping[t]}`}>
               {t}     
             </span>
           )}

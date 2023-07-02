@@ -63,11 +63,11 @@ const Home = () => {
               <p className="my-4 font-medium">
                 With internships ranging from small, fast-paced startups to big tech companies 
                 such as Autodesk, I've found a niche in designing software architecture, 
-                deploying performant APIs and scaling solutions in the web development space.
+                developing APIs and scaling solutions in the web development space.
               </p>
 
               <p className="font-medium">
-                I also thrive on exploring complex problems and leveraging new technologies to in my
+                I also thrive on exploring complex problems and leveraging new technologies in my
                 personal projects. When I'm not working on software, I'm serving up Muay Thai strikes,
                 new food in the kitchen or exploring new gyms.
               </p>

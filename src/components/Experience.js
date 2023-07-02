@@ -36,7 +36,7 @@ const Details = ({ position, company, companyLink, time, address, work, tech }) 
         
         <p className="font-medium w-full md:text-md">
           {tech.map((t, index) => 
-            <span key={index} className={`text-xs font-medium mr-2 px-2.5 py-0.5 rounded-full ${techToColorMapping[t]}`} style={{whiteSpace: 'normal', display: 'inline-block'}}>
+            <span key={index} className={`text-xs mt-2 font-medium mr-2 px-2.5 py-0.5 rounded-full ${techToColorMapping[t]}`} style={{whiteSpace: 'normal', display: 'inline-block'}}>
               {t}     
             </span>
           )}
