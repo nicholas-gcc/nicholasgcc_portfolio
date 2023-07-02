@@ -40,7 +40,7 @@ const Home = () => {
     <>
       <Head>
         <title>Nicholas Canete Portfolio</title>
-        <link rel="preload" as="image" href={profilePic} />
+        <link rel="preload" as="image" href={profilePic.src} />
       </Head>
       <TransitionEffect />
       <main className="flex w-full flex-col items-center justify-center dark:text-light">

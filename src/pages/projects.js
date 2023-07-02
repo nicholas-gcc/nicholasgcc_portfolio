@@ -26,7 +26,7 @@ const FeaturedProject = ({ type, title, summary, img, link, github, hasRepo, tec
         lg:flex-col lg:p-8 xs:rounded-2xl xs:rounded-br-3xl xs:p-4"
     >
     <Head>
-        <link rel="preload" as="image" href={img} />
+        <link rel="preload" as="image" href={img.src} />
     </Head>
       <div
         className="absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem] bg-dark dark:bg-light
@@ -108,7 +108,7 @@ const Project = ({ title, type, img, link, github, desc, tech }) => {
     "
     >
     <Head>
-      <link rel="preload" as="image" href={img} />
+      <link rel="preload" as="image" href={img.src} />
     </Head>
       <div
         className="absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2rem] bg-dark
