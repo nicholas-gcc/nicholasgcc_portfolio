@@ -39,8 +39,8 @@ const Home = () => {
   return (
     <>
       <Head>
-      <title>Nicholas Canete Portfolio</title>
-        
+        <title>Nicholas Canete Portfolio</title>
+        <link rel="preload" as="image" href={profilePic} />
       </Head>
       <TransitionEffect />
       <main className="flex w-full flex-col items-center justify-center dark:text-light">
@@ -79,7 +79,7 @@ const Home = () => {
               <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light" />
               <Image
                 src={profilePic}
-                alt="Codebucks"
+                alt="Nicholas Canete"
                 className="w-full h-auto rounded-2xl"
                 priority
                 sizes="(max-width: 768px) 100vw,

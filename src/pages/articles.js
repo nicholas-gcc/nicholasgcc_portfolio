@@ -53,6 +53,9 @@ const MovingImg = ({ title, img, link }) => {
 const FeaturedArticle = ({ img, title, time, summary, link }) => {
   return (
     <li className="relative col-span-1 w-full p-4 bg-light border border-solid border-dark rounded-2xl dark:bg-dark dark:border-light">
+      <Head>
+        <link rel="preload" as="image" href={img} />
+      </Head>
       <div
         className="absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2rem] bg-dark
     rounded-br-3xl
@@ -63,6 +66,7 @@ const FeaturedArticle = ({ img, title, time, summary, link }) => {
         target="_blank"
         className="w-full inline-block cursor-pointer overflow-hidden rounded-lg"
       >
+        
         <FramerImage
           src={img}
           alt={title}
